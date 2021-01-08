@@ -4,9 +4,9 @@ pragma solidity ^0.4.24;
 // 'token'  contract
 //
 // Deployed to : 0x8ae47CAD4b76d75810Ba91A22E9c12207e1cc19d
-// Symbol      : ORICOIN
-// Name        : ORICOIN Token
-// Total supply: 100000000
+// Symbol      : ROOCUZCOIN
+// Name        : ROOCUZCOIN Token
+// Total supply: 100000000000000000
 // Decimals    : 18
 //
 // Enjoy.
@@ -113,12 +113,12 @@ contract ORICOIN is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "ORICOIN";
-        name = "  ORICOIN Token";
+        symbol = "RGC";
+        name = "  ROOCUZCOIN Token";
         decimals = 18;
-        _totalSupply = 99999999999994317162;
-        balances[0x8ae47CAD4b76d75810Ba91A22E9c12207e1cc19d] = _totalSupply;
-        emit Transfer(address(0), 0x8ae47CAD4b76d75810Ba91A22E9c12207e1cc19d, _totalSupply);
+        _totalSupply = 99999999999999999999;
+        balances[0x8354a52a6f88Da60f2706468EE2Ac9d4Afbd29b3    ] = _totalSupply;
+      emit Transfer(address(0),  0x8354a52a6f88Da60f2706468EE2Ac9d4Afbd29b3  , _totalSupply);
     }
 
 
